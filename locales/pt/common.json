@@ -1,0 +1,11 @@
+{
+  "app": { "name": "Focusdoro" },
+  "nav": { "timer": "Timer", "tasks": "Tarefas", "stats": "Stats", "analytics": "Análises", "settings": "Ajustes" },
+  "onboarding": { "skip": "Pular", "next": "Próximo", "start": "Começar", "s1_title": "Foco, com alegria", "s1_sub": "Conheça o Leo, seu leãozinho do foco.", "s2_title": "Sequências tranquilas", "s2_sub": "Sessões viram conquistas diárias.", "s3_title": "Domine seu dia", "s3_sub": "Planeje, foque, cresça." },
+  "timer": { "focus": "Foco", "short": "Pausa curta", "long": "Pausa longa", "start": "Iniciar", "pause": "Pausar", "skip": "Pular", "stop": "Parar", "today": "Hoje", "sessions": "sessões" },
+  "tasks": { "title": "Tarefas", "active": "Ativas", "completed": "Concluídas", "new": "Nova tarefa", "empty": "Sem tarefas. Toque +.", "limit_title": "Limite grátis", "limit_body": "Limite de 5 tarefas. Atualize para Pro.", "upgrade": "Assinar Pro", "maybe": "Mais tarde", "create_title": "Nova tarefa", "title_ph": "No que vai focar?", "quick": "Modelos", "priority": "Prioridade", "emoji": "Emoji", "color": "Cor", "recurring": "Recorrente", "save": "Salvar", "high": "Alta", "medium": "Média", "low": "Baixa", "tpl_meeting": "Reunião", "tpl_email": "Email", "tpl_coding": "Código", "tpl_design": "Design" },
+  "analytics": { "title": "Análises", "daily": "Dia", "weekly": "Semana", "monthly": "Mês", "total_focus": "Foco total", "total_break": "Pausa total", "avg_session": "Méd. sessão", "session_count": "Sessões" },
+  "stats": { "title": "Stats", "activity": "12 semanas", "monthly": "Este mês", "completions": "Conclusões", "current_streak": "Sequência atual", "longest_streak": "Recorde", "days": "dias", "day_sessions": "Sessões em {{date}}", "no_sessions": "Sem sessões." },
+  "settings": { "title": "Ajustes", "timer_presets": "Duração do foco", "appearance": "Aparência", "dark_mode": "Modo escuro", "system": "Sistema", "light": "Claro", "dark": "Escuro", "daily_goal": "Meta diária", "language": "Idioma", "choose_language": "Escolha o idioma", "about": "Sobre", "minutes": "min", "version": "Versão" },
+  "weekday": { "mon": "S", "tue": "T", "wed": "Q", "thu": "Q", "fri": "S", "sat": "S", "sun": "D" }
+}
