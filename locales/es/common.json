@@ -1,0 +1,11 @@
+{
+  "app": { "name": "Focusdoro" },
+  "nav": { "timer": "Temporizador", "tasks": "Tareas", "stats": "Estadísticas", "analytics": "Analíticas", "settings": "Ajustes" },
+  "onboarding": { "skip": "Saltar", "next": "Siguiente", "start": "Empezar", "s1_title": "Enfócate, con alegría", "s1_sub": "Conoce a Leo, tu león del trabajo profundo.", "s2_title": "Crea rachas tranquilas", "s2_sub": "Las sesiones se suman a logros diarios.", "s3_title": "Domina tu día", "s3_sub": "Planifica, enfócate y observa tu crecimiento." },
+  "timer": { "focus": "Enfoque", "short": "Pausa corta", "long": "Pausa larga", "start": "Iniciar", "pause": "Pausar", "skip": "Saltar", "stop": "Detener", "today": "Hoy", "sessions": "sesiones" },
+  "tasks": { "title": "Tareas", "active": "Activas", "completed": "Completadas", "new": "Nueva tarea", "empty": "Sin tareas. Pulsa + para añadir.", "limit_title": "Límite del plan gratis", "limit_body": "Has llegado al límite de 5 tareas. Mejora a Pro.", "upgrade": "Mejorar a Pro", "maybe": "Quizás luego", "create_title": "Crear tarea", "title_ph": "¿En qué te enfocarás?", "quick": "Plantillas", "priority": "Prioridad", "emoji": "Emoji", "color": "Color", "recurring": "Recurrente", "save": "Guardar", "high": "Alta", "medium": "Media", "low": "Baja", "tpl_meeting": "Reunión", "tpl_email": "Email", "tpl_coding": "Código", "tpl_design": "Diseño" },
+  "analytics": { "title": "Analíticas", "daily": "Día", "weekly": "Semana", "monthly": "Mes", "total_focus": "Enfoque total", "total_break": "Pausa total", "avg_session": "Media sesión", "session_count": "Sesiones" },
+  "stats": { "title": "Estadísticas", "activity": "Actividad 12 semanas", "monthly": "Este mes", "completions": "Completadas", "current_streak": "Racha actual", "longest_streak": "Racha máxima", "days": "días", "day_sessions": "Sesiones del {{date}}", "no_sessions": "Sin sesiones." },
+  "settings": { "title": "Ajustes", "timer_presets": "Duración de enfoque", "appearance": "Apariencia", "dark_mode": "Modo oscuro", "system": "Sistema", "light": "Claro", "dark": "Oscuro", "daily_goal": "Meta diaria", "language": "Idioma", "choose_language": "Elige idioma", "about": "Acerca de", "minutes": "min", "version": "Versión" },
+  "weekday": { "mon": "L", "tue": "M", "wed": "X", "thu": "J", "fri": "V", "sat": "S", "sun": "D" }
+}

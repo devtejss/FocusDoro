@@ -1,0 +1,71 @@
+{
+  "app": { "name": "Focusdoro" },
+  "nav": { "timer": "Timer", "tasks": "Tasks", "stats": "Stats", "analytics": "Analytics", "settings": "Settings" },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Get Started",
+    "s1_title": "Focus, the playful way",
+    "s1_sub": "Meet Leo — your tiny lion of deep work.",
+    "s2_title": "Build calm streaks",
+    "s2_sub": "Sessions stack into beautiful daily wins.",
+    "s3_title": "Own your day",
+    "s3_sub": "Plan tasks, ride the timer, see your growth."
+  },
+  "timer": {
+    "focus": "Focus", "short": "Short Break", "long": "Long Break",
+    "start": "Start", "pause": "Pause", "skip": "Skip", "stop": "Stop",
+    "today": "Today", "sessions": "sessions"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "active": "Active", "completed": "Completed",
+    "new": "New task",
+    "empty": "No tasks yet. Tap + to add one.",
+    "limit_title": "Free plan limit",
+    "limit_body": "You've reached the 5-task limit. Upgrade to Pro for unlimited tasks, themes and stats.",
+    "upgrade": "Upgrade to Pro",
+    "maybe": "Maybe later",
+    "create_title": "Create task",
+    "title_ph": "What do you want to focus on?",
+    "quick": "Quick fill",
+    "priority": "Priority",
+    "emoji": "Emoji",
+    "color": "Color",
+    "recurring": "Recurring",
+    "save": "Save task",
+    "high": "High", "medium": "Medium", "low": "Low",
+    "tpl_meeting": "Meeting", "tpl_email": "Email", "tpl_coding": "Coding", "tpl_design": "Design"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "daily": "Daily", "weekly": "Weekly", "monthly": "Monthly",
+    "total_focus": "Total focus", "total_break": "Total break",
+    "avg_session": "Avg session", "session_count": "Sessions"
+  },
+  "stats": {
+    "title": "Stats",
+    "activity": "12-week activity",
+    "monthly": "This month",
+    "completions": "Completions",
+    "current_streak": "Current streak",
+    "longest_streak": "Longest streak",
+    "days": "days",
+    "day_sessions": "Sessions on {{date}}",
+    "no_sessions": "No sessions this day."
+  },
+  "settings": {
+    "title": "Settings",
+    "timer_presets": "Focus duration",
+    "appearance": "Appearance",
+    "dark_mode": "Dark mode",
+    "system": "System", "light": "Light", "dark": "Dark",
+    "daily_goal": "Daily goal",
+    "language": "Language",
+    "choose_language": "Choose language",
+    "about": "About",
+    "minutes": "min",
+    "version": "Version"
+  },
+  "weekday": { "mon": "M", "tue": "T", "wed": "W", "thu": "T", "fri": "F", "sat": "S", "sun": "S" }
+}

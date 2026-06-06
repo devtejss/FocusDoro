@@ -1,0 +1,11 @@
+{
+  "app": { "name": "Focusdoro" },
+  "nav": { "timer": "Timer", "tasks": "Aufgaben", "stats": "Statistik", "analytics": "Analytik", "settings": "Einstellungen" },
+  "onboarding": { "skip": "Überspringen", "next": "Weiter", "start": "Loslegen", "s1_title": "Fokus, spielerisch", "s1_sub": "Triff Leo — deinen kleinen Löwen.", "s2_title": "Ruhige Serien", "s2_sub": "Sessions werden zu täglichen Siegen.", "s3_title": "Beherrsche deinen Tag", "s3_sub": "Plane, fokussiere, wachse." },
+  "timer": { "focus": "Fokus", "short": "Kurze Pause", "long": "Lange Pause", "start": "Start", "pause": "Pause", "skip": "Skip", "stop": "Stopp", "today": "Heute", "sessions": "Sessions" },
+  "tasks": { "title": "Aufgaben", "active": "Aktiv", "completed": "Erledigt", "new": "Neue Aufgabe", "empty": "Keine Aufgaben. Tippe +.", "limit_title": "Gratis-Limit", "limit_body": "5-Aufgaben-Limit erreicht. Upgrade auf Pro.", "upgrade": "Auf Pro upgraden", "maybe": "Später", "create_title": "Aufgabe erstellen", "title_ph": "Worauf willst du dich konzentrieren?", "quick": "Vorlagen", "priority": "Priorität", "emoji": "Emoji", "color": "Farbe", "recurring": "Wiederholend", "save": "Speichern", "high": "Hoch", "medium": "Mittel", "low": "Niedrig", "tpl_meeting": "Meeting", "tpl_email": "E-Mail", "tpl_coding": "Code", "tpl_design": "Design" },
+  "analytics": { "title": "Analytik", "daily": "Tag", "weekly": "Woche", "monthly": "Monat", "total_focus": "Fokus gesamt", "total_break": "Pause gesamt", "avg_session": "Ø Session", "session_count": "Sessions" },
+  "stats": { "title": "Statistik", "activity": "12-Wochen-Aktivität", "monthly": "Dieser Monat", "completions": "Erledigt", "current_streak": "Aktuelle Serie", "longest_streak": "Längste Serie", "days": "Tage", "day_sessions": "Sessions am {{date}}", "no_sessions": "Keine Sessions." },
+  "settings": { "title": "Einstellungen", "timer_presets": "Fokusdauer", "appearance": "Erscheinung", "dark_mode": "Dunkelmodus", "system": "System", "light": "Hell", "dark": "Dunkel", "daily_goal": "Tagesziel", "language": "Sprache", "choose_language": "Sprache wählen", "about": "Über", "minutes": "Min", "version": "Version" },
+  "weekday": { "mon": "M", "tue": "D", "wed": "M", "thu": "D", "fri": "F", "sat": "S", "sun": "S" }
+}
