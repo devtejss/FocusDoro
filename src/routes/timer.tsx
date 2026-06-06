@@ -40,6 +40,7 @@ type TAction =
   | { kind: "resume" }
   | { kind: "tick"; now: number }
   | { kind: "skip" }
+  | { kind: "complete" }
   | { kind: "stop" }
   | { kind: "setType"; t: SessionType; presetMin?: number }
   | { kind: "setPreset"; m: number };
@@ -114,6 +115,10 @@ function reducer(s: TState, a: TAction): TState {
       const { t, cycles } = nextType(s);
       return { ...s, type: t, cyclesDone: cycles, status: "idle", endsAt: null, remainingSec: durationFor(t, s.presetMin) };
     }
+    case "complete": {
+      const { t, cycles } = nextType(s);
+      return { ...s, type: t, cyclesDone: cycles, status: "idle", endsAt: null, remainingSec: durationFor(t, s.presetMin) };
+    }
     case "stop":
       return { ...s, status: "idle", endsAt: null, remainingSec: durationFor(s.type, s.presetMin) };
   }
@@ -148,16 +153,7 @@ function TimerScreen() {
       getDB().sessions.add({
         type: finishedType, startedAt: Date.now() - dur * 1000, durationSec: dur, completed: 1,
       }).catch(() => {});
-      // auto-advance
-      const { t: nt, cycles } = nextType(state);
-      // small delay so UI shows 00:00
-      window.setTimeout(() => {
-        dispatch({ kind: "setType", t: nt });
-        // override cyclesDone
-        if (cycles !== state.cyclesDone) {
-          // simulate by dispatching skip-equivalent via state mutation
-        }
-      }, 400);
+      window.setTimeout(() => dispatch({ kind: "complete" }), 400);
     }
   }, [state]);
 
