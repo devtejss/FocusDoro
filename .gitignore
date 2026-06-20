@@ -30,3 +30,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+echo "lovable-backup" >> .gitignore
+echo ".lovable" >> .gitignore
